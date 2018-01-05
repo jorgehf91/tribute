@@ -10,5 +10,16 @@ img.img-centered {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 30%;
+  height: auto;
   max-width: 50%;
+}
+
+article.who-is {
+  clear: left;
+}
+
+img.img-right {
+ display: block;
+ float: right;
 }
