@@ -6,9 +6,14 @@
 
 .container {
   display: overflow;
+  background-color: black;
 }
 
-header {
+p {
+  background-color: white;
+}
+
+header .box {
     background-color: black;
 }
 
@@ -17,15 +22,12 @@ header h1 {
   color: white;
 }
 
-header em {
-  text-align: center;
+header strong {
+  display: inline-block;
+  padding-left: 545px;
+  margin: 30px;
   color: white;
 }
-
-h3 {
-  background-color: grey;
-}
-
 img.img-centered {
   display: block;
   margin-left: auto;
@@ -35,12 +37,23 @@ img.img-centered {
   max-width: 50%;
 }
 
-article.who-is {
-  width: 70%;
+header em {
+  display: inline-block;
+  padding-left: 370px;
+  margin: 30px;
+  color: white;
 }
 
-aside.img-right {
- display: inline-block;
- width: 33%;
- padding: 1 1 red;
+.box .left .p-right p {
+  padding-top: 50px;
+  padding-right: 50px;
+  float: right;
+  width: 60%;
+
+}
+
+.img-right {
+  width: auto;
+  margin-top: 10px;
+ padding-left: 100px;
 }
