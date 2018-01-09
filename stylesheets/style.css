@@ -1,5 +1,14 @@
-#sidebar {
-  background-color: blue; }
+
+header {
+    background-color: black;
+}
+
+header h1 {
+  color: white;
+}
+
+header em {
+  color: white;
 }
 
 h3 {
@@ -16,10 +25,11 @@ img.img-centered {
 }
 
 article.who-is {
-  clear: left;
+  width: 70%;
 }
 
-img.img-right {
- display: block;
- float: right;
+aside.img-right {
+ display: inline-block;
+ width: 33%;
+ padding: 1 1 red;
 }
