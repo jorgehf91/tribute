@@ -1,13 +1,24 @@
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: overflow;
+}
+
 header {
     background-color: black;
 }
 
 header h1 {
+  text-align: center;
   color: white;
 }
 
 header em {
+  text-align: center;
   color: white;
 }
 
